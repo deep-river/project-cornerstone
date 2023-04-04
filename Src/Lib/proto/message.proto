@@ -46,6 +46,13 @@ enum ENTITY_EVENT
 	JUMP = 4;
 }
 
+enum ITEM_TYPE
+{
+	NORMAL = 0;
+	MATERIAL = 1;
+	TASK = 2;
+}
+
 message NUserInfo {
 	int32 id = 1;
 	NPlayerInfo player = 2;
@@ -65,6 +72,21 @@ message NCharacterInfo {
 	int32 level = 6;
 	int32 mapId = 7;
 	NEntity entity = 8;
+	int64 gold = 9;
+	repeated NItemInfo Items = 10;
+	NBagInfo Bag = 11;
+}
+
+message NBagInfo
+{
+	int32 Unlocked = 1;
+	bytes Items = 2;
+}
+
+message NItemInfo
+{
+	int32 id = 1;
+	int32 count = 2;
 }
 
 message NVector3
@@ -72,6 +94,41 @@ message NVector3
 	int32 x = 1;
 	int32 y = 2;
 	int32 z = 3;
+}
+
+enum STATUS_ACTION
+{
+	UPDATE = 0;
+	ADD = 1;
+	DELETE = 2;
+}
+
+enum STATUS_TYPE
+{
+	MONEY = 0;
+	EXP = 1;
+	SKILL_POINT = 2;
+	ITEM = 3;
+}
+
+enum STATUS_SOURCE
+{
+	UPDATE = 0;
+	ADD = 1;
+	DELETE = 2;
+}
+
+message NStatus 
+{
+	STATUS_TYPE type = 1;
+	STATUS_ACTION action = 2;
+	int32 id = 3;
+	int32 value = 4;
+}
+
+message StatusNotify
+{
+	repeated NStatus status = 1;
 }
 
 ////////////////////////////////////////////////////////////////
@@ -119,6 +176,8 @@ message NetMessageRequest{
 
 	MapEntitySyncRequest mapEntitySync = 8;
 	MapTeleportRequest mapTeleport = 9;
+
+	ItemBuyRequest itemBuy = 10;
 }
 
 message NetMessageResponse{
@@ -133,6 +192,8 @@ message NetMessageResponse{
 
 	MapEntitySyncResponse mapEntitySync = 8;
 	
+	ItemBuyResponse itemBuy = 10;
+	StatusNotify statusNotify = 100;
 }
 
 
@@ -180,6 +241,7 @@ message UserGameEnterRequest
 message UserGameEnterResponse {
 	RESULT result = 1;
 	string errormsg = 2;
+	NCharacterInfo character = 3;
 }
 
 message UserGameLeaveRequest
@@ -223,4 +285,27 @@ message MapEntitySyncResponse
 message MapTeleportRequest
 {
 	int32 teleporterId = 1;
+}
+
+message BagSaveRequest
+{
+	NBagInfo BagInfo = 1;
+}
+
+message BagSaveResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+}
+
+message ItemBuyRequest
+{
+	int32 shopId = 1;
+	int32 shopItemId = 2;
+}
+
+message ItemBuyResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
 }
