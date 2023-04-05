@@ -4,13 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 using Services;
 using SkillBridge.Message;
+using TMPro;
 
 public class UIRegister : MonoBehaviour {
 
 
-    public InputField username;
-    public InputField password;
-    public InputField passwordConfirm;
+    public TMP_InputField username;
+    public TMP_InputField password;
+    public TMP_InputField passwordConfirm;
     public Button buttonRegister;
 
     public GameObject uiLogin;

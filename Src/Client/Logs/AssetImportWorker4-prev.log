@@ -15,7 +15,7 @@ C:/Dev/project-cornerstone/Src/Client
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-6806
+7549
 Successfully changed project path to: C:/Dev/project-cornerstone/Src/Client
 C:/Dev/project-cornerstone/Src/Client
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Dev/project-cornerstone/Src/Client
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13172] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 319402891 [EditorId] 319402891 [Version] 1048832 [Id] WindowsEditor(7,R9000P2021H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17488] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 4229935284 [EditorId] 4229935284 [Version] 1048832 [Id] WindowsEditor(7,R9000P2021H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13172] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 319402891 [EditorId] 319402891 [Version] 1048832 [Id] WindowsEditor(7,R9000P2021H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17488] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 4229935284 [EditorId] 4229935284 [Version] 1048832 [Id] WindowsEditor(7,R9000P2021H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 AS: AutoStreaming module initializing.
-Refreshing native plugins compatible for Editor in 69.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 95.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1c1 (08fa194de70f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Unity 2021.3.21f1c1/Editor/Data/Resources/UnitySubsystems
@@ -68,87 +68,87 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Unity 2021.3.21f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Unity 2021.3.21f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Unity 2021.3.21f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Unity 2021.3.21f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007159 seconds.
+Registered in 0.007527 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 93.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.637 seconds
+- Completed reload, in  0.806 seconds
 Domain Reload Profiling:
-	ReloadAssembly (638ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (807ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (429ms)
-			LoadAssemblies (89ms)
+		EndReloadAssembly (582ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (100ms)
+			SetupTypeCache (132ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (231ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (341ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (60ms)
+				RefreshPlugins (94ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (118ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015041 seconds.
+Registered in 0.015030 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.881 seconds
+- Completed reload, in  1.224 seconds
 Domain Reload Profiling:
-	ReloadAssembly (881ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (1225ms)
+		BeginReloadAssembly (153ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (661ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (922ms)
+			LoadAssemblies (120ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (150ms)
+			SetupTypeCache (215ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (351ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (507ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (98ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (130ms)
+				AfterProcessingInitializeOnLoad (17ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2341 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 57 unused Assets / (57.7 KB). Loaded Objects now: 2799.
-Memory consumption went from 96.7 MB to 96.7 MB.
-Total: 6.010500 ms (FindLiveObjects: 0.182400 ms CreateObjectMapping: 0.102900 ms MarkObjects: 5.626400 ms  DeleteObjects: 0.095400 ms)
+Unloading 2359 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (57.8 KB). Loaded Objects now: 2827.
+Memory consumption went from 109.8 MB to 109.8 MB.
+Total: 8.921700 ms (FindLiveObjects: 0.266400 ms CreateObjectMapping: 0.220800 ms MarkObjects: 8.287400 ms  DeleteObjects: 0.145300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -161,3 +161,1315 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 50700.194007 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_halberd.png
+  artifactKey: Guid(e5ea1b15c94cd4302a2b85ececa78d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_halberd.png using Guid(e5ea1b15c94cd4302a2b85ececa78d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce2a5cc8183083fa8a3feddae014ad4') in 0.132636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/shop_img_chest_open02_l_04.png
+  artifactKey: Guid(6de1bb6f8522e454c8ee204e95491006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/shop_img_chest_open02_l_04.png using Guid(6de1bb6f8522e454c8ee204e95491006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7a6d570eb65a23e7600610ecb277c4') in 0.187977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Label/label_flag_02_White3.png
+  artifactKey: Guid(5fcfbdf3ef61a488ab46d2e99151bebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Label/label_flag_02_White3.png using Guid(5fcfbdf3ef61a488ab46d2e99151bebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c302cfb4d2b8d2728d892491daf90b') in 0.011842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/set_icon_menu04_1_normal.png
+  artifactKey: Guid(e55ed5ed95924415bb2e6a925f282161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/set_icon_menu04_1_normal.png using Guid(e55ed5ed95924415bb2e6a925f282161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd847f4f16c73c3b078df800d8bb5f56c') in 0.011444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_list_2.png
+  artifactKey: Guid(1c1db872beb71407692a338318e82e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_list_2.png using Guid(1c1db872beb71407692a338318e82e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58286ac4ccab090ace795c5ccf49e76d') in 0.011359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_jewel3_green.png
+  artifactKey: Guid(c4a4a3889725445dd8786804a24c10e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_jewel3_green.png using Guid(c4a4a3889725445dd8786804a24c10e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57851793658e248f58ea90e05afd4dc') in 0.012970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Image/group_image_wingbadge5.png
+  artifactKey: Guid(444883cc39da34318b867469465acc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Image/group_image_wingbadge5.png using Guid(444883cc39da34318b867469465acc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef80d7cc9947c84c564f9e4c7c642e14') in 0.018874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_glove.png
+  artifactKey: Guid(e67c8f8d226094ac5a1e523c5f7e3a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_glove.png using Guid(e67c8f8d226094ac5a1e523c5f7e3a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309098df260b6bfc7edf1753a244379f') in 0.011240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_megaphone.png
+  artifactKey: Guid(e66b793b76725492bb22ae28a2ef1167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_megaphone.png using Guid(e66b793b76725492bb22ae28a2ef1167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e05d3a3bfa47b877198df9119e7b2c8') in 0.011921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_guild_flag_1.png
+  artifactKey: Guid(54ff9da60114841938dfe6aa658c8fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_guild_flag_1.png using Guid(54ff9da60114841938dfe6aa658c8fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8dbc1d9b317f3449f45bf5f11815520') in 0.019436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_question.png
+  artifactKey: Guid(7589e807c2c5f4d14ba0bc2c5b87f50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_question.png using Guid(7589e807c2c5f4d14ba0bc2c5b87f50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6a66d7941e2e9a629d61c7b6841070') in 0.010979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Play/joystick_button_01_slier_bar_1.png
+  artifactKey: Guid(509ccd09672f848cc908728d67ca49df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Play/joystick_button_01_slier_bar_1.png using Guid(509ccd09672f848cc908728d67ca49df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cb2a9139fc3e06609ff31eec90cfba') in 0.010530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_currency_dollar.png
+  artifactKey: Guid(b415a757d2b694fd3a89a15a8e17fbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_currency_dollar.png using Guid(b415a757d2b694fd3a89a15a8e17fbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741698ca1afb1f29db2810d3ffbf90d6') in 0.010763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_calendar_month.png
+  artifactKey: Guid(60b11f18a72014387b18edc3b130b694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_calendar_month.png using Guid(60b11f18a72014387b18edc3b130b694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbc72b8ae401747ed53fbaba209f1eb') in 0.012282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_posion_tooth.png
+  artifactKey: Guid(98e4314da763047b5930d4b8fec462c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_posion_tooth.png using Guid(98e4314da763047b5930d4b8fec462c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627021835bf8958140289252a101dbfd') in 0.012904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_bomb.png
+  artifactKey: Guid(bb0d0a12b139e4a4b8645d801aa7b9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_bomb.png using Guid(bb0d0a12b139e4a4b8645d801aa7b9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add1a8c7b1ac328ad38d7f6ab990b633') in 0.013930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_discount.png
+  artifactKey: Guid(410f12fb4e846467f99e4ce35feecfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_discount.png using Guid(410f12fb4e846467f99e4ce35feecfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6027e87f995d966b47e73c3c4286cf3') in 0.011537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_plane.png
+  artifactKey: Guid(b777941f8e47541e593fb6189429d752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_plane.png using Guid(b777941f8e47541e593fb6189429d752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943ac41c80360bc772dd819434b5f0ff') in 0.011494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_potion_red_3.png
+  artifactKey: Guid(f9552474e117b4fa0be24761c7f3c7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_potion_red_3.png using Guid(f9552474e117b4fa0be24761c7f3c7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e645189b16a9b80a614c2c9ec9fc7c6') in 0.014883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_04.png
+  artifactKey: Guid(f802ceda35f5c4662a240c6ceef56a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_04.png using Guid(f802ceda35f5c4662a240c6ceef56a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e2c41f13a61610bb01e23333669be6') in 0.018730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_currency_peso.png
+  artifactKey: Guid(96354408999b34e1e8cf7634310ab7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_currency_peso.png using Guid(96354408999b34e1e8cf7634310ab7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40dfb99aa9df09880a24143a0c56f642') in 0.012329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UI/Common/common_bg_02.png
+  artifactKey: Guid(f2c26ba28b4d05643ba74996bb40967b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Common/common_bg_02.png using Guid(f2c26ba28b4d05643ba74996bb40967b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d478938d2a6bafc0d3c7c9ed2a8da1') in 0.014124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_rune.png
+  artifactKey: Guid(3a4ee14ca538b4c74b027f96d16c9c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_rune.png using Guid(3a4ee14ca538b4c74b027f96d16c9c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cee88bbaf9700d99c91e6057320706d') in 0.016006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Fonts/Alata-Regular-Outline 54 SDF Atlas.png
+  artifactKey: Guid(7574acb32e4e74ef981d47f6e2d96b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Fonts/Alata-Regular-Outline 54 SDF Atlas.png using Guid(7574acb32e4e74ef981d47f6e2d96b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb9d5389e6a923f9f3ffbf7d5e6d202') in 0.073773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_mark_question.png
+  artifactKey: Guid(4811960dd56054318a0373cdb7ee9eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_mark_question.png using Guid(4811960dd56054318a0373cdb7ee9eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89bc7fb9e29e3709eda6b38faaf3978') in 0.012267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_stageframe_00_White_d.png
+  artifactKey: Guid(98c8384d715964f6e9e30fc0f42a0efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_stageframe_00_White_d.png using Guid(98c8384d715964f6e9e30fc0f42a0efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ecc2abc70351860fa137fb37a48998') in 0.015009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_dragon_tooth.png
+  artifactKey: Guid(cf952c3e0f57246da9cc60ae0e5501ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_dragon_tooth.png using Guid(cf952c3e0f57246da9cc60ae0e5501ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cb76d418ef2a8a248bd9a375e36e9e') in 0.013689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Particles/Textures/fx_glow1.png
+  artifactKey: Guid(a14382567192c4fc98d48eaef7301e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Particles/Textures/fx_glow1.png using Guid(a14382567192c4fc98d48eaef7301e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3ce815f5225e0c8e7e674427aceb2e') in 0.011909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/shop_img_chest_open02_m_03.png
+  artifactKey: Guid(49a004fbac44b405090dfa48f8e747ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/shop_img_chest_open02_m_03.png using Guid(49a004fbac44b405090dfa48f8e747ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1493737bfda7f673c72c08bfac2d94c2') in 0.043930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_notification.png
+  artifactKey: Guid(75236f9beab21459bbe90f8a4152e5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_notification.png using Guid(75236f9beab21459bbe90f8a4152e5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acbce3ec677ba5b29f11edea9d3e3c3') in 0.014683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/Preview/46_BattlePass.png
+  artifactKey: Guid(3e589fe72fc1a4b4c87c6e1b53f4a71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/Preview/46_BattlePass.png using Guid(3e589fe72fc1a4b4c87c6e1b53f4a71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b84f34968a5c3f1528b628225e1daec') in 0.121465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Particles/Textures/fx_star1.png
+  artifactKey: Guid(406bbad3262f641588ffe77b93d48b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Particles/Textures/fx_star1.png using Guid(406bbad3262f641588ffe77b93d48b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee38495077fc310de58349a717e41b2') in 0.026025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/shop_img_chest_open01_l_04.png
+  artifactKey: Guid(43cef54b3fbd745e3bb665b8d8401de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/shop_img_chest_open01_l_04.png using Guid(43cef54b3fbd745e3bb665b8d8401de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4137eab77826e4c812b893ad65f8ab') in 0.156850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_edgetype_00_fill.png
+  artifactKey: Guid(5649518a0104c4fdda2a3d3d0d10ad55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_edgetype_00_fill.png using Guid(5649518a0104c4fdda2a3d3d0d10ad55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e59a24da4a84647ff9f4b0eef1441b') in 0.012026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Play/joystick_button_01_slier_bar_5.png
+  artifactKey: Guid(a9142b6ae951946ef8b46b3b4c72b42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Play/joystick_button_01_slier_bar_5.png using Guid(a9142b6ae951946ef8b46b3b4c72b42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc2728fcf86e912b7e2936bb5ae65b9') in 0.011702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_life_break.png
+  artifactKey: Guid(8b34893ac269d4925a510e2eccc43602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_life_break.png using Guid(8b34893ac269d4925a510e2eccc43602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca823855cef14a8f18c8826c620dd77e') in 0.011666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_rocket.png
+  artifactKey: Guid(e9f1cccabdbbd42fc88546a52b517e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_rocket.png using Guid(e9f1cccabdbbd42fc88546a52b517e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa68f3e4ef3debafa9448c7439da17d') in 0.011003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_file_export.png
+  artifactKey: Guid(c8e0fdf3bd556428f8d72144fcbe93b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_file_export.png using Guid(c8e0fdf3bd556428f8d72144fcbe93b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c6afad5687aa16f01041bde93ec4ea') in 0.013064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_anchor.png
+  artifactKey: Guid(3bf0a0da9d1af4b589815e372e7691c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_anchor.png using Guid(3bf0a0da9d1af4b589815e372e7691c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b7c3db57774995570e81cc734b5f11') in 0.014457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_moon.png
+  artifactKey: Guid(aebcdfd45683e4895b8081d7bef80ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_moon.png using Guid(aebcdfd45683e4895b8081d7bef80ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8df54819998625cf9df42b73f9d87c4') in 0.012171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_rectangle_01_n_red.png
+  artifactKey: Guid(6f5cc40e4a1cd458c9901849a7f52a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_rectangle_01_n_red.png using Guid(6f5cc40e4a1cd458c9901849a7f52a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a5da71ca4dcaf288c681c93fd12895') in 0.014303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_spin.png
+  artifactKey: Guid(5205207609dbb4882be3fb1fb9b3ea77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_spin.png using Guid(5205207609dbb4882be3fb1fb9b3ea77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0fc98818a35a53f86a17df82050c8d') in 0.012023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_currency_pound.png
+  artifactKey: Guid(d9cba500538ca42be8ab88fce23cfdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_currency_pound.png using Guid(d9cba500538ca42be8ab88fce23cfdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e66de45694d720873c7ccb443a344e') in 0.013066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_country_flag_pol.png
+  artifactKey: Guid(2b3d0d62c7cc74c02b64128e4365e036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_country_flag_pol.png using Guid(2b3d0d62c7cc74c02b64128e4365e036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab73e4354117554e9df003a5192e8bd') in 0.013746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_spiderweb.png
+  artifactKey: Guid(b8f69031008394f21912534a3ac20502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_spiderweb.png using Guid(b8f69031008394f21912534a3ac20502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e64d1841390f28ddee797365ae75d5f') in 0.012848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/shop_img_chest_open02_m_04.png
+  artifactKey: Guid(95633de4ad128415c8a95048fefffb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/shop_img_chest_open02_m_04.png using Guid(95633de4ad128415c8a95048fefffb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5737343d0c0c22d1fbda185767e68923') in 0.049640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_edgetype_00_frame_icon2.png
+  artifactKey: Guid(cd9e1436adbc94cafbfe64fee0518a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_edgetype_00_frame_icon2.png using Guid(cd9e1436adbc94cafbfe64fee0518a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0d05a779586c04217263b1826c33a2') in 0.012506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Particles/Textures/fx_circle_line1.png
+  artifactKey: Guid(3d33bbf47918d4deca06bc016b4c945d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Particles/Textures/fx_circle_line1.png using Guid(3d33bbf47918d4deca06bc016b4c945d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e2f30f9641d0f46b937f72b6129c5d') in 0.026487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Animatons/Loading_rotate_11.png
+  artifactKey: Guid(a7c647b3e00814a14befda31e915cb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Animatons/Loading_rotate_11.png using Guid(a7c647b3e00814a14befda31e915cb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7550a64fd01cde84db42512a4e67989') in 0.017136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_back_glow.png
+  artifactKey: Guid(6028e705cc7ce4c059a95dab800a0ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_back_glow.png using Guid(6028e705cc7ce4c059a95dab800a0ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e655321ea52477bdb673b646ffd1fc') in 0.026392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_scale.png
+  artifactKey: Guid(bd80c2116be0a4f7bb72bd54a80531ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_scale.png using Guid(bd80c2116be0a4f7bb72bd54a80531ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a8b006a7337970271666e30d4d2b26') in 0.013445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/shop_img_chest_open02_l_02.png
+  artifactKey: Guid(c2535c79f137f4e2a890d30d5e2f8994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/shop_img_chest_open02_l_02.png using Guid(c2535c79f137f4e2a890d30d5e2f8994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa147395f91ec001bec3c0c2a3e1b31') in 0.097249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_jewel3_purple.png
+  artifactKey: Guid(7b68dc7e40c7e49ec84ac88cee279514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_jewel3_purple.png using Guid(7b68dc7e40c7e49ec84ac88cee279514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b271112d25852accbd93dd6b27fddef') in 0.011848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/set_icon_menu_00_chest.png
+  artifactKey: Guid(926ae38ddd0f547598d6f56be7384fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/set_icon_menu_00_chest.png using Guid(926ae38ddd0f547598d6f56be7384fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfd5b65a39771bcb899d22927de2395') in 0.013181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_rectangle_03.png
+  artifactKey: Guid(7fc1f566adfca485f90894d0655b431b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_rectangle_03.png using Guid(7fc1f566adfca485f90894d0655b431b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e069de32949da1d18b41754ac28af0') in 0.020189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Image/group_image_swordmark2.png
+  artifactKey: Guid(abdc84ff860314ed4b2401cc7a6224ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Image/group_image_swordmark2.png using Guid(abdc84ff860314ed4b2401cc7a6224ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b8bbf4616ef7cc7300f25759d21b92') in 0.015715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_axe_4.png
+  artifactKey: Guid(d2e8d149de37d45769237ec61e75cd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_axe_4.png using Guid(d2e8d149de37d45769237ec61e75cd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8df37e9aff3cf5551a89e947f3bd236') in 0.013944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Popup/popup_01_frame.png
+  artifactKey: Guid(2da9659ea9f6547808423fb363e16e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Popup/popup_01_frame.png using Guid(2da9659ea9f6547808423fb363e16e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862f1fdd200ec0fba29b443a994a1d5e') in 0.015900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_color_check_01_s.png
+  artifactKey: Guid(58d0d9d3fd49f4e5b97a158cad0bb65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_color_check_01_s.png using Guid(58d0d9d3fd49f4e5b97a158cad0bb65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985d99cb83c5d3c16f28a7c438dba52d') in 0.014246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_cardframe_00_s_back.png
+  artifactKey: Guid(3f37a929d30164a0b95d09e9315e7c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_cardframe_00_s_back.png using Guid(3f37a929d30164a0b95d09e9315e7c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b365e50924a9cf54d0b00e18e54ffda8') in 0.022545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_mobile.png
+  artifactKey: Guid(ac3a4fba0e35648ab8fca0c8e7c09d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_mobile.png using Guid(ac3a4fba0e35648ab8fca0c8e7c09d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea348490ea689232cd441748687ecf5') in 0.014873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Image/action_text_combo.png
+  artifactKey: Guid(581883832a4374704b3b874af707b160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Image/action_text_combo.png using Guid(581883832a4374704b3b874af707b160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f096d4ba61470bb511d79a3ebb2d8293') in 0.012932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_anvil.png
+  artifactKey: Guid(fa34bfe64f7f943b69804cffd9c517f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_anvil.png using Guid(fa34bfe64f7f943b69804cffd9c517f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279151bdc7c419f40f9366c729a6f507') in 0.012874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_cupcake.png
+  artifactKey: Guid(210f814c451724442a120e15d38c078f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_cupcake.png using Guid(210f814c451724442a120e15d38c078f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23146ff21ba3433306c1f47057e8c382') in 0.011618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_reload.png
+  artifactKey: Guid(1c8046dcb4d1e4e1fa8630fa3a59c709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_reload.png using Guid(1c8046dcb4d1e4e1fa8630fa3a59c709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1d342e9bd3fb2274fec490319ec1c4') in 0.013411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_inventory.png
+  artifactKey: Guid(076e5467b48574784a83c093bfacc22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_inventory.png using Guid(076e5467b48574784a83c093bfacc22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0958997dff660cc6ce7b66d111208263') in 0.014506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Label/label_ribbon_02_White1.png
+  artifactKey: Guid(762a6e285e2bf4cb6950945509c4f060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Label/label_ribbon_02_White1.png using Guid(762a6e285e2bf4cb6950945509c4f060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df827905f7735878e42d2f56edc64cc0') in 0.018981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_home_1.png
+  artifactKey: Guid(97ababb3bd3c2458bba362598401889a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_home_1.png using Guid(97ababb3bd3c2458bba362598401889a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a782708ebdf12d368682db4458573fcc') in 0.011896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Label/label_tag_01_White2.png
+  artifactKey: Guid(171d7bb7d3d6e470797b3e1f6f9ac331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Label/label_tag_01_White2.png using Guid(171d7bb7d3d6e470797b3e1f6f9ac331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b044ef99409dd3b6aebe30fb93ec4ba') in 0.011616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_language_flag_prt_1.png
+  artifactKey: Guid(04eb7c41a24154a7a90454af1777d83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_language_flag_prt_1.png using Guid(04eb7c41a24154a7a90454af1777d83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce98473bbdaffd135c05e3a082ea6d4') in 0.014309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_book_magic.png
+  artifactKey: Guid(c9250edf4111a480399f5e39edc635f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_book_magic.png using Guid(c9250edf4111a480399f5e39edc635f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e509c752fb321315ea7c5867d6ca8478') in 0.014462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_scroll2.png
+  artifactKey: Guid(008f6586af382402781fcd8f1669bceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_scroll2.png using Guid(008f6586af382402781fcd8f1669bceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9021eaf87cd89c4c93b001c58c99fe4b') in 0.015030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_eye_blue.png
+  artifactKey: Guid(a0dd1a56e66754fc4887580637e1e1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_eye_blue.png using Guid(a0dd1a56e66754fc4887580637e1e1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d054ec6d3a4fce6ef00333e9c82f8d2') in 0.014745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_hammer_3.png
+  artifactKey: Guid(0c971d6050d3c459581516c54ac55cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_hammer_3.png using Guid(0c971d6050d3c459581516c54ac55cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3030e19471abec0f85c2d7350e525f') in 0.013598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_setting_2.png
+  artifactKey: Guid(d5e65d9f85d094dc4b0acd6c28f83294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_setting_2.png using Guid(d5e65d9f85d094dc4b0acd6c28f83294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac85611e31262dea80219315c5a24318') in 0.013413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/Preview/65_RewardWeek.png
+  artifactKey: Guid(35d79d203bf3943c2b184f9727f37ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/Preview/65_RewardWeek.png using Guid(35d79d203bf3943c2b184f9727f37ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c756ca1fd1f09507f69ec91794aee715') in 0.106596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_tag.png
+  artifactKey: Guid(e4e0ef2a09d36412cad11a250b824be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_tag.png using Guid(e4e0ef2a09d36412cad11a250b824be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d47b04ed3e9f2d5bbc0e2eb4846efe') in 0.010282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_bracelet.png
+  artifactKey: Guid(9d2f2bcbb5df34f5bb54071e9f8821ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_bracelet.png using Guid(9d2f2bcbb5df34f5bb54071e9f8821ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7b6c0ca48c3ebad48207370922b8ff') in 0.014795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_03.png
+  artifactKey: Guid(695bf1a0f9b004b57b57a6b3f78e4322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_03.png using Guid(695bf1a0f9b004b57b57a6b3f78e4322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9336d2a48fb210778f78af1742a64d4e') in 0.017719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_dagger.png
+  artifactKey: Guid(93d97a4398691495c8a11dfc794b89e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_dagger.png using Guid(93d97a4398691495c8a11dfc794b89e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af46044a377bce05e768b4f0518468e') in 0.011356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_potion_red_2.png
+  artifactKey: Guid(00d24408568984f129b7023cb677c0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_potion_red_2.png using Guid(00d24408568984f129b7023cb677c0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83eb342ee7b0025f3edaaeed680105f') in 0.013454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Animatons/Loading_rotate_01.png
+  artifactKey: Guid(c1a8b91abb7e542bcb36beac9b1e7452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Animatons/Loading_rotate_01.png using Guid(c1a8b91abb7e542bcb36beac9b1e7452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8c461dec1911b59966d8adffdec38d') in 0.013792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UI/Icons/icon_info.png
+  artifactKey: Guid(8827d604567c5774dae1bd4d5e8b6894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Icons/icon_info.png using Guid(8827d604567c5774dae1bd4d5e8b6894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61400aa1f88fab96a109164c995332f5') in 0.011342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_icontype_03_frame.png
+  artifactKey: Guid(36f6d527895d64d56918a3385c073cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_icontype_03_frame.png using Guid(36f6d527895d64d56918a3385c073cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16b1786a13eaff37a636ecb59a0e227') in 0.012127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_tabmenu_focus_00_White1.png
+  artifactKey: Guid(b37e2b0c7950e4f1497f21125ca8530f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_tabmenu_focus_00_White1.png using Guid(b37e2b0c7950e4f1497f21125ca8530f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567cc9d5d553d8a448727e0d21f57685') in 0.011848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_meat.png
+  artifactKey: Guid(da6e6cef89ef4485a99bf262e902f2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_meat.png using Guid(da6e6cef89ef4485a99bf262e902f2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc7197d46e451d2f05ddf8ae211afe0') in 0.016937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_megaphone.png
+  artifactKey: Guid(fa1e2e0fbf69d4804a326872558cec08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_megaphone.png using Guid(fa1e2e0fbf69d4804a326872558cec08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b5496d1291042f86faf63e895111fb') in 0.014177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_cut.png
+  artifactKey: Guid(c4fc2c81dcc3c428e87c06521d20cd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_cut.png using Guid(c4fc2c81dcc3c428e87c06521d20cd23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d29497711b8333133a47c92a5aac2c3') in 0.012916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Particles/Textures/fx_dust1.png
+  artifactKey: Guid(8aca5e8ea241b42858f3d9644e848b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Particles/Textures/fx_dust1.png using Guid(8aca5e8ea241b42858f3d9644e848b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c445adfedfb2ec1963464bd3d9471e78') in 0.029488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_calculator.png
+  artifactKey: Guid(b4d9a0621b7b548658a9e3800d0d50c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_calculator.png using Guid(b4d9a0621b7b548658a9e3800d0d50c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68aa98a5ecfe1dfdc8d438ce3042a875') in 0.013135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_07.png
+  artifactKey: Guid(19ede287137504ab8ab51ea773c382b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_07.png using Guid(19ede287137504ab8ab51ea773c382b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1e6033a1f3561f3f4523aad4914f25') in 0.029128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_graph.png
+  artifactKey: Guid(0689a377105a14fafa789a393ec5a8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_graph.png using Guid(0689a377105a14fafa789a393ec5a8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd303fd338c808c5dbb3b0d1df59122b1') in 0.014561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Image/group_image_wingbadge11.png
+  artifactKey: Guid(18f9c5bcee76542cfad90467199206e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Image/group_image_wingbadge11.png using Guid(18f9c5bcee76542cfad90467199206e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2b1b716c124fdf819b89826f1c7bb6') in 0.012700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_icontype_02_icon3.png
+  artifactKey: Guid(44fcbe9a150c244b7b2ae28131d46f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_icontype_02_icon3.png using Guid(44fcbe9a150c244b7b2ae28131d46f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36857908b3ef6762e4f92ceecf1f1c4d') in 0.011595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_00_title_3840.png
+  artifactKey: Guid(41841b1eddbdc43e4bdcfbf7cc7fcdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_00_title_3840.png using Guid(41841b1eddbdc43e4bdcfbf7cc7fcdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19efd71b7e80612575dfce70d507bde') in 0.143394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/set_icon_gem_5.png
+  artifactKey: Guid(89c6d4683c0ba45cba580aed17fbeede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/set_icon_gem_5.png using Guid(89c6d4683c0ba45cba580aed17fbeede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efba353c00a972700abdfb72fff8dc89') in 0.033736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_rectangle_01_n_bluegray.png
+  artifactKey: Guid(68b35d2059b8c46e0a98e53628e9b3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_rectangle_01_n_bluegray.png using Guid(68b35d2059b8c46e0a98e53628e9b3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f880eb71ae226b61f5861bb606b92b') in 0.015349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Play/joystick_button_03_slier.png
+  artifactKey: Guid(ac07070fd7466441581341d6bd0b57bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Play/joystick_button_03_slier.png using Guid(ac07070fd7466441581341d6bd0b57bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202b78b32e498b8a8fb8bf417969dfc5') in 0.013291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_potion_purple_2.png
+  artifactKey: Guid(c32ec22f2da9f4d2eaaebae24bdbaa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_potion_purple_2.png using Guid(c32ec22f2da9f4d2eaaebae24bdbaa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb102d2354244ec6e43fc31c92debd0') in 0.016135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_diamond.png
+  artifactKey: Guid(2fddfc54a383741c8b6d236468e33eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_diamond.png using Guid(2fddfc54a383741c8b6d236468e33eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505f97c12f49f14d48b1a160948a4d45') in 0.013756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Play/joystick_move_point.png
+  artifactKey: Guid(fd4a2ab97886f4c9b91236a61ed79413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Play/joystick_move_point.png using Guid(fd4a2ab97886f4c9b91236a61ed79413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8df6af348e96c2ac346058e0099f850') in 0.016647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_cardframe_02_back_red.png
+  artifactKey: Guid(22b9f7f7827914c7d838a394d6b493e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_cardframe_02_back_red.png using Guid(22b9f7f7827914c7d838a394d6b493e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f75b7e4ed234dec04a43ca9a9775c4') in 0.012005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/set_icon_role_darkmage.png
+  artifactKey: Guid(2055fd42ce4d8486295b232b0f3db096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/set_icon_role_darkmage.png using Guid(2055fd42ce4d8486295b232b0f3db096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cca78f85e3d50186c703822f77050ae') in 0.013708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_stageframe_02_Demo_s2.png
+  artifactKey: Guid(72fe1b22dc90347e8b2dff8609aee358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_stageframe_02_Demo_s2.png using Guid(72fe1b22dc90347e8b2dff8609aee358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54602bed7d5d37bde597759ff6308f6') in 0.017784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_medal.png
+  artifactKey: Guid(ef3933010ec5843b6ac127bf07a06d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_medal.png using Guid(ef3933010ec5843b6ac127bf07a06d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63924b9d1f0d6938941be3c091a2308') in 0.014113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_edgetype_00_frame_front.png
+  artifactKey: Guid(886e46324f5ab49cfa5baa87c2468d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_edgetype_00_frame_front.png using Guid(886e46324f5ab49cfa5baa87c2468d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9627c7936d86ba0c86bbcab453050cb') in 0.015791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Popup/popup_02_frame3.png
+  artifactKey: Guid(0ff3e2c154a504e208d1293505528436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Popup/popup_02_frame3.png using Guid(0ff3e2c154a504e208d1293505528436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce36810da4fd8d96b189ab172c918eea') in 0.016250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_think.png
+  artifactKey: Guid(dbec3d18dbb54480d95a6b3dcff02433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_think.png using Guid(dbec3d18dbb54480d95a6b3dcff02433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e96ddfd31b9203e06835840867709fd') in 0.016407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_user_1.png
+  artifactKey: Guid(7eeaf24cbf2a64882b9b71718d3509ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_user_1.png using Guid(7eeaf24cbf2a64882b9b71718d3509ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cb450d5088f51335ce553db5280b7e') in 0.013397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_search.png
+  artifactKey: Guid(9a6e675173dbe4d3b8ee4bd01e45ff01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_search.png using Guid(9a6e675173dbe4d3b8ee4bd01e45ff01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0565bb2e19ccfa5da7676d33219eefb3') in 0.013434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_sqeure_01.png
+  artifactKey: Guid(7c9169de7543a47c7a1a49f13864a321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_sqeure_01.png using Guid(7c9169de7543a47c7a1a49f13864a321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8007b797dd05f2917140dc1a7019ec36') in 0.016925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_edgetype_02_frame_front.png
+  artifactKey: Guid(505cdc796e3f04317be12bcbbf0c1358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_edgetype_02_frame_front.png using Guid(505cdc796e3f04317be12bcbbf0c1358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e51c79c1582cd9dc283bb44144b1a2d') in 0.014525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_edgetype_00_frame_back.png
+  artifactKey: Guid(74428fd53ea9a48f9b6d8ab4ef5e06a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_edgetype_00_frame_back.png using Guid(74428fd53ea9a48f9b6d8ab4ef5e06a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220e1b206b986be7bc2800cd8d2a0828') in 0.013217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/set_icon_menu02_boss.png
+  artifactKey: Guid(628fb358393e6492eb92424c9f20a05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/set_icon_menu02_boss.png using Guid(628fb358393e6492eb92424c9f20a05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce03a8a43e5b09d278a33d84f9b2ab86') in 0.019399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_color_gem_00_s.png
+  artifactKey: Guid(0031bf89c61434d3b84e98ee565b486b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_color_gem_00_s.png using Guid(0031bf89c61434d3b84e98ee565b486b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6210081d6b20106f87b70320e84c4e') in 0.015795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Particles/Textures/fx_circle_line2.png
+  artifactKey: Guid(472f66ba810b14ac484d18ee7316a974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Particles/Textures/fx_circle_line2.png using Guid(472f66ba810b14ac484d18ee7316a974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ca4969d2398edb17753b966ade9e2f') in 0.018756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_talk_2.png
+  artifactKey: Guid(d898700248d9146bc8d94b5c43b1a933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_talk_2.png using Guid(d898700248d9146bc8d94b5c43b1a933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9259719680fc13a64bd388dd85ba2a1') in 0.014191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_star_grade_s.png
+  artifactKey: Guid(c5cde321110314fd7bfa6b1fd5810597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_star_grade_s.png using Guid(c5cde321110314fd7bfa6b1fd5810597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7181246ef3fcf5cc1c47744e496790f5') in 0.013276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_skull_flag.png
+  artifactKey: Guid(899687626ff3842d99b58510c063abe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_skull_flag.png using Guid(899687626ff3842d99b58510c063abe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac5263ec1117b1426650703bf763235') in 0.016763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_currency_won.png
+  artifactKey: Guid(b91bf7c10e42e4a56b45ae53f75222bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_currency_won.png using Guid(b91bf7c10e42e4a56b45ae53f75222bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fd3b3bb5a4219b59bdea0d14f5f963') in 0.013966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_coin_yen.png
+  artifactKey: Guid(5133137d7927a443e8f6b9fbe7553eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_coin_yen.png using Guid(5133137d7927a443e8f6b9fbe7553eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0034416522dc86106372610009311c53') in 0.012873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_03_character_3840.png
+  artifactKey: Guid(9f1dbd2d1b95946ab9417d48fa63605b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_03_character_3840.png using Guid(9f1dbd2d1b95946ab9417d48fa63605b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290131d96e0ed3220f0b7da36109d202') in 0.113478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/shop_img_chest_close_s_01.png
+  artifactKey: Guid(e5d4d6c52199d41e6b52da7abec31a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/shop_img_chest_close_s_01.png using Guid(e5d4d6c52199d41e6b52da7abec31a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ceb88db7299666daa5eb324a486880b') in 0.016256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_cardframe_00_White2.png
+  artifactKey: Guid(3f2bc72ac834c4e53a813f27b19aea64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_cardframe_00_White2.png using Guid(3f2bc72ac834c4e53a813f27b19aea64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3adfd15039cfe8b1efac76189ba4acfa') in 0.011385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_stageframe_05_s_blue.png
+  artifactKey: Guid(4a87d2863962d4f2bacd1abeb517ffd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_stageframe_05_s_blue.png using Guid(4a87d2863962d4f2bacd1abeb517ffd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b4924a9e5842288a7eb94a45a7e1da') in 0.012608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_icontype_04_fill_2.png
+  artifactKey: Guid(1432f6e73829d4a82aa0ba678bc9366e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_icontype_04_fill_2.png using Guid(1432f6e73829d4a82aa0ba678bc9366e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50da98e068a44807459c4221d17b804') in 0.011121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_player_next.png
+  artifactKey: Guid(795b7b1e4e0734068a8236acbfe755a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_player_next.png using Guid(795b7b1e4e0734068a8236acbfe755a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fe7d1349cada2ed3c7611bad34afc3') in 0.015336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Play/frame_gradient_play_time_bg.png
+  artifactKey: Guid(cbba91b98d35542f68001370f5e9f7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Play/frame_gradient_play_time_bg.png using Guid(cbba91b98d35542f68001370f5e9f7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2588dde2855d259d76d4d3686b71c63') in 0.013586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_guild_flag_2.png
+  artifactKey: Guid(2c04fcd0f2f924ff1961cab2185f2e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_guild_flag_2.png using Guid(2c04fcd0f2f924ff1961cab2185f2e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e597de4392616bcded026e21aed6a286') in 0.016665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_linetextframe_05_White2.png
+  artifactKey: Guid(980a04bc7d42b4e0fbc93dd10b54d0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_linetextframe_05_White2.png using Guid(980a04bc7d42b4e0fbc93dd10b54d0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28f4fa4aa8507fe29bb7f3e0c70943d') in 0.025838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_mark_add.png
+  artifactKey: Guid(2b8186236e26449e195474b0b3dfaad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_mark_add.png using Guid(2b8186236e26449e195474b0b3dfaad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efbf33c1d4a5fa692faa0f0c4e1f6b6') in 0.010727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_gift1_red.png
+  artifactKey: Guid(d2b33962d30094087bfa9af8b0a62712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_gift1_red.png using Guid(d2b33962d30094087bfa9af8b0a62712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8bdb5dcb85c32cf56e3d875940f84c') in 0.014478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_country_flag_rou.png
+  artifactKey: Guid(80ce379e95b0b4bf380effdcfe524863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_country_flag_rou.png using Guid(80ce379e95b0b4bf380effdcfe524863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9ffc02f7b202397797a587466db6b4') in 0.010681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/shop_img_chest_open01_m_00.png
+  artifactKey: Guid(43f9dc71579d94648a94a4835e3953c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/shop_img_chest_open01_m_00.png using Guid(43f9dc71579d94648a94a4835e3953c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe1b727090060da62a0d3afae8ab50d') in 0.038952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_sns_pinterest.png
+  artifactKey: Guid(7648f1d9436de4cac87b97719ac62d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_sns_pinterest.png using Guid(7648f1d9436de4cac87b97719ac62d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c710eb0309ab705152df85981ad9bc29') in 0.011107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_axe_3.png
+  artifactKey: Guid(1dcafc1838ee0410ab55403502cfa05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_axe_3.png using Guid(1dcafc1838ee0410ab55403502cfa05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5c35106a0c028a85b8fd9943cfaa3e') in 0.012718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Image/image_glow_oval_01.png
+  artifactKey: Guid(e0d2a8d5dc9894a5bb5b677f368a2715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Image/image_glow_oval_01.png using Guid(e0d2a8d5dc9894a5bb5b677f368a2715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7276ef4bbeeb9619976e1ad75dafcb31') in 0.013493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_target_1.png
+  artifactKey: Guid(8207cd31602db48f8a4c1467e5d96efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_target_1.png using Guid(8207cd31602db48f8a4c1467e5d96efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1378736e3ba1cd464b182c368ca18f9e') in 0.016815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_sildeshow.png
+  artifactKey: Guid(1bc4ea834668448e2a46da30babee50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_sildeshow.png using Guid(1bc4ea834668448e2a46da30babee50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c44f1a8e7a6188dd448985fc8d0151') in 0.014701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/shop_img_chest_open01_l_03.png
+  artifactKey: Guid(aa541f6b594c34c5ca83e89009ff9d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/shop_img_chest_open01_l_03.png using Guid(aa541f6b594c34c5ca83e89009ff9d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102ce899636b4b7dcbf84dc0c4061791') in 0.131603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_potionpurple.png
+  artifactKey: Guid(7d6941948494f46b6ab536505c248e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_potionpurple.png using Guid(7d6941948494f46b6ab536505c248e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9a5e7e2decdb304a395651b3eeb83e') in 0.014272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_castle.png
+  artifactKey: Guid(61328f1c77f9743eaa508ed5f89f4b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_castle.png using Guid(61328f1c77f9743eaa508ed5f89f4b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274d9a43c5464af559f1cc86684046c9') in 0.012929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_stageframe_03_White1.png
+  artifactKey: Guid(3dab73dae2f6743498f387b111a75d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_stageframe_03_White1.png using Guid(3dab73dae2f6743498f387b111a75d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb734f6f5a5fb096f4d2abc29364402') in 0.012911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_emoji_happy.png
+  artifactKey: Guid(638bd07ca283849e0a05ab0fc3c126d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_emoji_happy.png using Guid(638bd07ca283849e0a05ab0fc3c126d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b022111054cd75e3e73ae1bfc2da847') in 0.012418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_history.png
+  artifactKey: Guid(fff8fd5fc19284f81a735c1edc86f4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_history.png using Guid(fff8fd5fc19284f81a735c1edc86f4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a8c244ad30355cf2815f0575f3658e') in 0.011587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Label/label_ribbon_01_White4.png
+  artifactKey: Guid(d7b975e359be54bbebc3801b1aefd2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Label/label_ribbon_01_White4.png using Guid(d7b975e359be54bbebc3801b1aefd2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4113314c596b64a1b855153dc8eb60e1') in 0.012811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/set_icon_gold_0.png
+  artifactKey: Guid(2b0a7e8c6bbb5477e9d0741d42fb0f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Chest/set_icon_gold_0.png using Guid(2b0a7e8c6bbb5477e9d0741d42fb0f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cfb849c2d997760a413316e1909a2d') in 0.021970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_color_check_02.png
+  artifactKey: Guid(09df08b90bba7486181a56adc6525dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_color_check_02.png using Guid(09df08b90bba7486181a56adc6525dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1b123253509d536ecd184405f94e02') in 0.013009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/Frame_StageFrame_01_Demo_n.png
+  artifactKey: Guid(8618db974c2d8471f8d4fbeec0f3697a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/Frame_StageFrame_01_Demo_n.png using Guid(8618db974c2d8471f8d4fbeec0f3697a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d29cc75367f180705e3f35242f25a4') in 0.015008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_09.png
+  artifactKey: Guid(61d43c9213e96492da5161e16d57dfc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Character/character_sample_09.png using Guid(61d43c9213e96492da5161e16d57dfc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbf9fa02e54d31216d26f58aa679bb8') in 0.022103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_color_arrow_prev.png
+  artifactKey: Guid(33769690961c5421bb028f13ba13d7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_color_arrow_prev.png using Guid(33769690961c5421bb028f13ba13d7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7c17660803a100ea210aea882cafdf') in 0.013602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_armor.png
+  artifactKey: Guid(c23bb5c1541e4415bb82f430a308f7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_armor.png using Guid(c23bb5c1541e4415bb82f430a308f7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4292d85397c54d6423878b7bcb0d1e0c') in 0.015623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_chess_2.png
+  artifactKey: Guid(9e23c74e16b244bb19edf0175baaa545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_chess_2.png using Guid(9e23c74e16b244bb19edf0175baaa545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85977cb72c0e8e977df966960034e1c5') in 0.012227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Play/joystick_move_focus_0.png
+  artifactKey: Guid(33ca1083f9bfe45718418a2c27af0a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Play/joystick_move_focus_0.png using Guid(33ca1083f9bfe45718418a2c27af0a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5cc0e203481020e74a6a0d1d31f083') in 0.015853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_energy_purple.png
+  artifactKey: Guid(b6e135c3e56af4a678b1a8f58ab240e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_ItemIcons_(Original)/icon_itemicon_energy_purple.png using Guid(b6e135c3e56af4a678b1a8f58ab240e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764148984b6a2ed66ef31c264dbea2a1') in 0.013426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_circle_01_purple.png
+  artifactKey: Guid(c45f4e805a75b4de4a1c5bf3471587dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Button/btn_circle_01_purple.png using Guid(c45f4e805a75b4de4a1c5bf3471587dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e433c0c763cdae41f2d98df82628598b') in 0.015163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_listframe_00_Demo_d.png
+  artifactKey: Guid(8d59a835dfdb543498482459cb7c528c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_listframe_00_Demo_d.png using Guid(8d59a835dfdb543498482459cb7c528c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b20edd88bc436a95237b9a16a6026b') in 0.017803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_minus.png
+  artifactKey: Guid(6a012afcc942048828c63b4dc9b338a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_minus.png using Guid(6a012afcc942048828c63b4dc9b338a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6217f2ab2454223f7f8da42b8eb8ed46') in 0.013796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Image/group_image_wingbadge1.png
+  artifactKey: Guid(132eca0feb55947e2afe9068162b62dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Image/group_image_wingbadge1.png using Guid(132eca0feb55947e2afe9068162b62dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483981104220f8d97297b01006c78b03') in 0.017381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_language_flag_twn.png
+  artifactKey: Guid(0e306a5f3dbec4eb3890156245ee31da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_language_flag_twn.png using Guid(0e306a5f3dbec4eb3890156245ee31da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b926255a81056b351c85f6899454477') in 0.012262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_04_reward_1920.png
+  artifactKey: Guid(8d54540caaf954ec0b42a42bd7e842cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_04_reward_1920.png using Guid(8d54540caaf954ec0b42a42bd7e842cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a693347624144612d283a7ab6742bd8') in 0.110300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_country_flag_twn.png
+  artifactKey: Guid(1d70ccd9962fc491c8e8616ec3059619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_country_flag_twn.png using Guid(1d70ccd9962fc491c8e8616ec3059619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51962e9378a5538baa7a47579dc6f504') in 0.011445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Image/group_image_swordmark3.png
+  artifactKey: Guid(ffbe85a92706b437cada65ace0743ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Image/group_image_swordmark3.png using Guid(ffbe85a92706b437cada65ace0743ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ded3e204a92027021ac5ff1ca29062') in 0.012582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_tableframe_00_3.png
+  artifactKey: Guid(4237db1ab769f4f2abbdb2cd20902fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_tableframe_00_3.png using Guid(4237db1ab769f4f2abbdb2cd20902fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de853e5108c05d62179717bfd69e7bf') in 0.014410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_gesture_tap.png
+  artifactKey: Guid(7d9ff26551d0b416dba8de0a94b987ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_gesture_tap.png using Guid(7d9ff26551d0b416dba8de0a94b987ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28904866da3e6dbcc739aff882b32dd8') in 0.014260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_guild_flag_5.png
+  artifactKey: Guid(d7d9cab2bc99840aeb0bcaa037d15e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_guild_flag_5.png using Guid(d7d9cab2bc99840aeb0bcaa037d15e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16f187c3d2d62215430c06e39e7e064') in 0.017090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/set_icon_role_ranger.png
+  artifactKey: Guid(19ca1c1ac14f8450ba19001288580c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/set_icon_role_ranger.png using Guid(19ca1c1ac14f8450ba19001288580c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1cb2831bb9c0a24d47de03a5c8cabf') in 0.037202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_star_grade_l_d.png
+  artifactKey: Guid(c9cfe975c43ed4fb787a78503be748c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_star_grade_l_d.png using Guid(c9cfe975c43ed4fb787a78503be748c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219a610a8a8fc3f016b54183fa0afde9') in 0.014786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_icontype_05_icon3.png
+  artifactKey: Guid(515ae39f4f7a1449c9f952dbc1364be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Slider/slider_icontype_05_icon3.png using Guid(515ae39f4f7a1449c9f952dbc1364be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1440e90568ea5502f2df664e247099') in 0.015641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_planet.png
+  artifactKey: Guid(fd90733a0b4c944dfa1c3dfc426e38a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_planet.png using Guid(fd90733a0b4c944dfa1c3dfc426e38a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734d9cbe184b068f9b9e6c3bf824d9b1') in 0.016520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/set_icon_stat_8.png
+  artifactKey: Guid(6e96b59585c1c473e8572067c9d9046a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/set_icon_stat_8.png using Guid(6e96b59585c1c473e8572067c9d9046a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981a93f0e18917727d693554012463db') in 0.012670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/Frame_StageFrame_01_Demo_s1.png
+  artifactKey: Guid(28e3013a5b0f0432b8ee9ab4588df7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/Frame_StageFrame_01_Demo_s1.png using Guid(28e3013a5b0f0432b8ee9ab4588df7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f7045ea1df0733c46678b60be1f36b') in 0.013720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_ring_gold.png
+  artifactKey: Guid(af115e57966564c01adfc3db1c776223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_ring_gold.png using Guid(af115e57966564c01adfc3db1c776223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39eab0790d14a27165a1166aed546cae') in 0.015513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_linetextframe_06_1.png
+  artifactKey: Guid(d71c57c43eca947f586ed23825960ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_linetextframe_06_1.png using Guid(d71c57c43eca947f586ed23825960ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fedc253a79407df2c038e87c1aacf3') in 0.013130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_potion_blue_4.png
+  artifactKey: Guid(7650a4718db954652a436242cbde2366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_EquipmentIcons_(Original)/equip_potion_blue_4.png using Guid(7650a4718db954652a436242cbde2366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14522e312ff525fd9d19db983ad468c') in 0.014607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_strength.png
+  artifactKey: Guid(9edd79fdf80f3420aa9396c83869cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Icon_PictoIcons_(Original)/btn_icon_strength.png using Guid(9edd79fdf80f3420aa9396c83869cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23679a59d66d49ba85a61b0fe51f266') in 0.015041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_01_loading_2560.png
+  artifactKey: Guid(afdeac15025e241d0bbdd87c1d3db07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Background/background_01_loading_2560.png using Guid(afdeac15025e241d0bbdd87c1d3db07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3f14f7dfddaef783fae33081a49b17') in 0.112498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.499676 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_setting_l.png
+  artifactKey: Guid(4c845caba84fa44749a6755368a59a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_setting_l.png using Guid(4c845caba84fa44749a6755368a59a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e506536d05a546f734ed73a1780496a8') in 0.012438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_wifi3.png
+  artifactKey: Guid(27a6a27cfacc641a1a544c95c7a434ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_wifi3.png using Guid(27a6a27cfacc641a1a544c95c7a434ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d4b0fec2f9b5926fd06730940c7d59') in 0.011360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_vibration.png
+  artifactKey: Guid(3e488604e2f414c27811990edfa996db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_vibration.png using Guid(3e488604e2f414c27811990edfa996db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471f4ac3824b93ca2c979d448c18189e') in 0.010527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_sound_mute.png
+  artifactKey: Guid(0c25031178dad4c068ed55b9e33212ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_sound_mute.png using Guid(0c25031178dad4c068ed55b9e33212ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297b8ce71432eac900cf3439ae455fbe') in 0.013509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_back.png
+  artifactKey: Guid(55dcfe4cdc2ec4575bf4ae59102968f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_back.png using Guid(55dcfe4cdc2ec4575bf4ae59102968f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f546d47e928a2678847740f02d37bd') in 0.012287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_delete.png
+  artifactKey: Guid(032f644fc08324ac4ad77ddac86c7e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_delete.png using Guid(032f644fc08324ac4ad77ddac86c7e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd024905477f95d3795ddd05aa8c7ecb3') in 0.011347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_exit.png
+  artifactKey: Guid(1ddf9343777a04359b13d3a8b3f8b1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_exit.png using Guid(1ddf9343777a04359b13d3a8b3f8b1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fab5419d0c4a904390d313613f6717') in 0.014280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_home.png
+  artifactKey: Guid(7a1e4997e87404174b6dc46f0c096ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_home.png using Guid(7a1e4997e87404174b6dc46f0c096ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bebae1846d29192acb8c7146b12762') in 0.011311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_arrow_fast.png
+  artifactKey: Guid(72f153acc23e0433aa62629d027a0b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_arrow_fast.png using Guid(72f153acc23e0433aa62629d027a0b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44625efad4f55674b0f7b8b0bb9d7051') in 0.012259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_ticket_gold.png
+  artifactKey: Guid(28778547f0c614fb4839df359be936d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_ticket_gold.png using Guid(28778547f0c614fb4839df359be936d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec41be0eda7829bd9e8bda845fb48cd') in 0.014176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_arrow_prev.png
+  artifactKey: Guid(eebc9cc52c36f41f2849d2325c077599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_arrow_prev.png using Guid(eebc9cc52c36f41f2849d2325c077599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e29d47d329fd6ba53085dd913517e1') in 0.012349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_add_l.png
+  artifactKey: Guid(1d5f231cf509e46ab9a5c5549d6dab69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_white_add_l.png using Guid(1d5f231cf509e46ab9a5c5549d6dab69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c925e0ccc51e9e47280f224f5a39d0') in 0.010219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.252367 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_color_sns_apple.png
+  artifactKey: Guid(a7c1a10972d01412490661187bb39a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_color_sns_apple.png using Guid(a7c1a10972d01412490661187bb39a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81af199ec00a8e8ecb06f6ba4b83352a') in 0.012059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_country_flag_idn.png
+  artifactKey: Guid(7e0279a75ec6b4d6ba0b1b056b74eb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_country_flag_idn.png using Guid(7e0279a75ec6b4d6ba0b1b056b74eb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24737d5b3b59420588b9f0726c3fc55f') in 0.011913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_country_flag_ita.png
+  artifactKey: Guid(c717ffb210c9e44e9b3b86a011333d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_country_flag_ita.png using Guid(c717ffb210c9e44e9b3b86a011333d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef9991372e890d8ee2a2d1a93f79972') in 0.011304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_country_flag_kor.png
+  artifactKey: Guid(da9e2d42bfa4848d29927b9d0a2dffc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon_Flags/icon_country_flag_kor.png using Guid(da9e2d42bfa4848d29927b9d0a2dffc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f5b674e0e64e1e90a136e1650cb1a7') in 0.011243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.285183 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_color_gift.png
+  artifactKey: Guid(4af1ed9ec84ea464091130888169040b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_color_gift.png using Guid(4af1ed9ec84ea464091130888169040b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40977f955db323c168393bbbcce5e2e') in 0.016159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_color_medal_gold.png
+  artifactKey: Guid(3c983ee95972a44b88fa3c00c3f542cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_color_medal_gold.png using Guid(3c983ee95972a44b88fa3c00c3f542cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf97965b0483fc5c383fafe36274e3e0') in 0.012520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_color_lock_m.png
+  artifactKey: Guid(aea0327fcd38b414fa18f121a9665105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_color_lock_m.png using Guid(aea0327fcd38b414fa18f121a9665105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea92e00d765c58f07ec3b69b84a7e4b') in 0.013255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_color_lock_l.png
+  artifactKey: Guid(4d994859ab9984da1bf99b0192dd6132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Demo/Demo_Icon/icon_color_lock_l.png using Guid(4d994859ab9984da1bf99b0192dd6132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbfb3291e55d9538058756aa4490131') in 0.015756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.531258 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_lineframe_02.png
+  artifactKey: Guid(b956cef0f2ee740a7bc267c660084346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_lineframe_02.png using Guid(b956cef0f2ee740a7bc267c660084346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed8262f3ed11bbd2505f552062116a9') in 0.015912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_linetextframe_03_Whie2.png
+  artifactKey: Guid(b52e9bdd59d004610afbcd237e0d38d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_linetextframe_03_Whie2.png using Guid(b52e9bdd59d004610afbcd237e0d38d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80aee1268f6ba1604f4eaa1f36053ddc') in 0.026795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_linetextframe_04_Demo2.png
+  artifactKey: Guid(b6d5794fea4794e02b885b02bfe4ef9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_linetextframe_04_Demo2.png using Guid(b6d5794fea4794e02b885b02bfe4ef9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099c2b9c4bc826456c1e6e484e19020d') in 0.014692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_linetextframe_02_1.png
+  artifactKey: Guid(928f26cc301434b5fabd45a498300ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_linetextframe_02_1.png using Guid(928f26cc301434b5fabd45a498300ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac68c9bdfc6183f571bfe0c22bff1762') in 0.015497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.091299 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_02_frame_brown1.png
+  artifactKey: Guid(fdd4aa4e4dd7440cd8cb1450dc7d9f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_02_frame_brown1.png using Guid(fdd4aa4e4dd7440cd8cb1450dc7d9f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c51e23401c9c52721de8f29222c3c7') in 0.013861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_lineframe_01.png
+  artifactKey: Guid(10ec237bb64be470a8f248eaac60045a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_lineframe_01.png using Guid(10ec237bb64be470a8f248eaac60045a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0de2979507ff97b0da73f416807468') in 0.012007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_02_frame_purple2.png
+  artifactKey: Guid(db0f12203a28e4186a92cb7d7277adf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_02_frame_purple2.png using Guid(db0f12203a28e4186a92cb7d7277adf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59a5fd664347f30a76b2925d51c4868') in 0.015340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008828 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_01_frame_blue2.png
+  artifactKey: Guid(40ffcd3c87fdf4393ad13389a2f594a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_01_frame_blue2.png using Guid(40ffcd3c87fdf4393ad13389a2f594a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcc829d8c79c095d9f022cc486207fa') in 0.013350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_01_White1.png
+  artifactKey: Guid(2ce2c66aecb874b17b5a4fa5babe9209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_01_White1.png using Guid(2ce2c66aecb874b17b5a4fa5babe9209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a3082606b674db9b1828597b3c3e19') in 0.012755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_00_frame_purple.png
+  artifactKey: Guid(1757479cd707b4180a861faf78aeccb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_00_frame_purple.png using Guid(1757479cd707b4180a861faf78aeccb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ca57183e9cbb8a48dae695f8474ea1') in 0.014486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_00_frame_yellow.png
+  artifactKey: Guid(356c0b18fbd3e4e94a7e05ae60d72575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_00_frame_yellow.png using Guid(356c0b18fbd3e4e94a7e05ae60d72575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee8f61272aae3e95e36d83e34578440') in 0.013173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_01_frame_brown1.png
+  artifactKey: Guid(4a15aad8540d849e7a699a11e3f0913d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_01_frame_brown1.png using Guid(4a15aad8540d849e7a699a11e3f0913d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51db791a7da5cdd3ed37873a6fd7f2a7') in 0.014769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_02_frame_blue2.png
+  artifactKey: Guid(43b7be1b9409249748dd9f51fb216f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_02_frame_blue2.png using Guid(43b7be1b9409249748dd9f51fb216f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b105935b10e1ae14451186851665bf26') in 0.012307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_iconframe_square_01_White2.png
+  artifactKey: Guid(0bf591047712142b9856dd906e6b3e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_iconframe_square_01_White2.png using Guid(0bf591047712142b9856dd906e6b3e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8304f73d3ad02b9307f8fa7f27c0a4de') in 0.012046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_iconframe_square_01_White1.png
+  artifactKey: Guid(d7b83d4f5183b420491828dde3cc6703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_iconframe_square_01_White1.png using Guid(d7b83d4f5183b420491828dde3cc6703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2c3e377372a9dbf495f7d6d0f5920a') in 0.011671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_iconframe_square_01_Demo_d.png
+  artifactKey: Guid(b4d516c4a3caf48a08acae0676628d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_iconframe_square_01_Demo_d.png using Guid(b4d516c4a3caf48a08acae0676628d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4560e73ca5d868c81383a6afbd290d') in 0.011597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_01_frame_purple2.png
+  artifactKey: Guid(c72999b8cd88a4220be1af4f37a268cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_itemframe_01_frame_purple2.png using Guid(c72999b8cd88a4220be1af4f37a268cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249d4ac038ae138fdc3f4ef53356d205') in 0.013397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_iconframe_square_00_frame_WhiteGlow.png
+  artifactKey: Guid(af4743d1cbcac48218490b2fb98c00e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_iconframe_square_00_frame_WhiteGlow.png using Guid(af4743d1cbcac48218490b2fb98c00e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360ec0fd072b9e73d58bb27ce72cfd33') in 0.017576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.872793 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_cardframe_02_front.png
+  artifactKey: Guid(0ee5ce27866c14801b7b6442f15c4628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_cardframe_02_front.png using Guid(0ee5ce27866c14801b7b6442f15c4628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee78fcde1bb33dfc60450662bb349de5') in 0.018012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_iconframe_square_00_frame_blue1.png
+  artifactKey: Guid(e665f1bd9c64b4b88b4e376f989fff2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_iconframe_square_00_frame_blue1.png using Guid(e665f1bd9c64b4b88b4e376f989fff2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a4a5de75dfb9d4cec81fc6ce572587') in 0.012179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_iconframe_square_00_frame_blue2.png
+  artifactKey: Guid(51010a432e92847cfb72a95eb78fe163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI PRO Kit - Fantasy RPG/ResourcesData/Sprites/Component/Frame/frame_iconframe_square_00_frame_blue2.png using Guid(51010a432e92847cfb72a95eb78fe163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e67bcde77162b2a4662a7941ffeb0d') in 0.012748 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
